@@ -12,14 +12,6 @@ class LogoAndBlurBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        // Image.asset("assets/images/cursor_logo.png"),
-        Spacer(),
-        GlassContent(size: size),
-        Spacer(flex: 3),
-      ],
-    );
+    return GlassContent(size: size);
   }
 }

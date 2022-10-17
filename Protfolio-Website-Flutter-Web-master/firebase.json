@@ -13,7 +13,7 @@
     "source": "functions"
   },
   "hosting": {
-    "site": "flutter-finn",
+    "site": "finnapps",
     "public": "build/web",
     "ignore": [
       "firebase.json",

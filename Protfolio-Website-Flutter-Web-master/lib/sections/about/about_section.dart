@@ -2,6 +2,7 @@ import 'package:finn_jesse/components/comming_soon.dart';
 import 'package:finn_jesse/components/default_button.dart';
 import 'package:finn_jesse/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'components/about_section_text.dart';
 import 'components/about_text_with_sign.dart';
 import 'components/experience_card.dart';
@@ -31,7 +32,7 @@ class AboutSection extends StatelessWidget {
           ),
           AboutSectionText(
             text:
-                'Jesse Dan is one of Nigeian\'s most well-known and well-respected Develpers. A veteran of the Digital World. Jesse has been a star of the stage and screen for over three years and continues to use his public profile for good. As the man behind the iconic Okoko Dev Fest, Jesse admired internationally for his charity work, as much as his  Job as a Developer. Now, aiming to change the conversation surrounding inclusion, Jesse is a leading speaker on the challenges and solutions faced by a lack of diversity.Having spent more than 3 years in the spotlight, Jesse\'s Work is popular across generations and continents. His earliest work on Arewa Commminity Web app for three years led to the opening of his own firm Cursor INC. in 2021 ',
+                '''I Jesse Dan, A flutter developer With three Years of industrial experience. When I started this Jounery, i desires to be known not just as a developer but as one with extreme   ''',
           ),
           Divider(
             // height: 20,

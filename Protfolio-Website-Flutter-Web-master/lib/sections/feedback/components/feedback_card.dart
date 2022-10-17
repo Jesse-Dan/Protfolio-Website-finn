@@ -16,7 +16,6 @@ class FeedbackCard extends StatefulWidget {
 }
 
 class _FeedbackCardState extends State<FeedbackCard> {
-
   Duration duration = Duration(milliseconds: 200);
   bool isHover = false;
   @override

@@ -261,7 +261,7 @@ class ContactForm extends StatelessWidget {
     var projectType = Uri.encodeComponent(projectTypeCtr.text);
     var description = Uri.encodeComponent(descriptionCtr.text);
     var mailUrl =
-        '''mailto:$email?subject=Project Proposal &body=You've reached finn.dart ''' +
+        '''mailto:jessedan160@gmail.com?subject=Project Proposal &body=You've reached finn.dart ''' +
             '''Do you have a project ? Tell us more on our whatsapp platform''' +
             " we have your details"
                 " name: $name" +
@@ -322,11 +322,11 @@ class ContactForm extends StatelessWidget {
         ],
       ),
       actions: <Widget>[
-        new FlatButton(
+         TextButton(
           onPressed: () {
             Navigator.of(context).pop();
           },
-          textColor: Theme.of(context).primaryColor,
+          // textColor: Theme.of(context).primaryColor,
           child: const Text('Close'),
         ),
       ],

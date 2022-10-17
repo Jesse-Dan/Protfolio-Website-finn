@@ -36,16 +36,32 @@ class GlassContent extends StatelessWidget {
                     .copyWith(color: Colors.white),
               ),
               Text(
-                "Finn Jesse\nDan",
+                "Jesse Oyofo",
                 style: TextStyle(
                   fontSize: 100,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
-                  height: 1.5,
+                  height: null,
+                ),
+              ),
+              Text(
+                "Dan F.",
+                style: TextStyle(
+                  fontSize: 100,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                  height: null,
                 ),
               ),
               Text(
                 "Mobile App Developer",
+                style: Theme.of(context)
+                    .textTheme
+                    .headline5
+                    .copyWith(color: Colors.white),
+              ),
+              Text(
+                "FinnApps INC.",
                 style: Theme.of(context)
                     .textTheme
                     .headline5

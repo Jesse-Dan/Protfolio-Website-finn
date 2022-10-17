@@ -18,14 +18,15 @@ class DefaultButton extends StatelessWidget {
     // ignore: deprecated_member_use
     return GestureDetector(
       onTap: press,
-      child: FlatButton(
+      child: Container(
         padding: EdgeInsets.symmetric(
           vertical: kDefaultPadding,
           horizontal: kDefaultPadding * 2.5,
         ),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
-        color: Color(0xFFE8F0F9),
-        onPressed: press,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(40),
+          color: Color(0xFFE8F0F9),
+        ),
         child: Row(
           children: [
             Image.asset(imageSrc, height: 40),

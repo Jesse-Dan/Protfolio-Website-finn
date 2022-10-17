@@ -26,7 +26,9 @@ class FeedbackSection extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: List.generate(
                   feedbacks.length,
-                  (index) => FeedbackCard(index: index,),
+                  (index) => FeedbackCard(
+                    index: index,
+                  ),
                 ),
               ),
             ),

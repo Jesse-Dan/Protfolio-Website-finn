@@ -21,7 +21,7 @@ List<Feedback> feedbacks = [
     id: 1,
     name: "Akalazu David",
     review: 'i\'m so satisfied with the work you have done for me ',
-    userPic: "assets/images/people.png",
+    userPic: "assets/images/akalazu.jpg",
     color: Color(0xFFFFF3DD),
   ),
   Feedback(
@@ -29,7 +29,7 @@ List<Feedback> feedbacks = [
     name: "Sir. Febechukwu Mitchel",
     review:
         'I would make sure to make reference to about your work to my friends and family',
-    userPic: "assets/images/people.png",
+    userPic: "assets/images/mr_febs.jpg",
     color: Color(0xFFD9FFFC),
   ),
   Feedback(
@@ -37,7 +37,7 @@ List<Feedback> feedbacks = [
     name: "Lawrence Segun",
     review:
         'Your Level of professionalism is so high, i doubt you can ever have an unsatisfied costumer ',
-    userPic: "assets/images/people.png",
+    userPic: "assets/images/segun.jpg",
     color: Color(0xFFFFE0E0),
   ),
 ];

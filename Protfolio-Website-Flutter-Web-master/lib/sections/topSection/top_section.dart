@@ -18,21 +18,9 @@ class TopSection extends StatelessWidget {
           image: AssetImage("assets/images/background.png"),
         ),
       ),
-      child: Container(
-        margin: EdgeInsets.only(top: kDefaultPadding),
-        width: 1200,
-        child: Stack(
-          children: [
-            LogoAndBlurBox(size: size),
-            // Positioned(bottom: 30, right: 20, child: null
-            // PersonPic(),
-            // ),
-            // Positioned(
-            //   bottom: 0,
-            //   child: Menu(),
-            // ),
-          ],
-        ),
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: kDefaultPadding * 2),
+        child: LogoAndBlurBox(size: size),
       ),
     );
   }
