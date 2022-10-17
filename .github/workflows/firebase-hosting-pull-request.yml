@@ -14,4 +14,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FINNAPPS_3D4EB }}'
-          projectId: finnapps-3d4eb
+          projectId: finn-apps
